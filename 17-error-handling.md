@@ -1,5 +1,3 @@
-=== START: 17-error-handling.md ===
-
 # 17. Error Handling Basics
 
 **Learning objective:** Learn the basics of catching errors using `try` and `catch`.
@@ -37,5 +35,3 @@ try {
 
 ---
 **Previous:** [16-dom-and-events.md](./16-dom-and-events.md) | **Next:** [18-es6-basics.md](./18-es6-basics.md)
-
-=== END: 17-error-handling.md ===

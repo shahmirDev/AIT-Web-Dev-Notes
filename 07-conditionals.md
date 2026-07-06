@@ -1,5 +1,3 @@
-=== START: 07-conditionals.md ===
-
 # 7. Conditional Statements
 
 **Learning objective:** Learn how to make decisions in code using if/else, switch, and ternary operators.
@@ -60,7 +58,7 @@ const status = age >= 18 ? "Allowed" : "Denied";
           /       \
         YES        NO
          |          |
-   Allow access   Deny access
+    Allow access   Deny access
 ```
 
 ### Common Mistakes
@@ -74,5 +72,3 @@ const status = age >= 18 ? "Allowed" : "Denied";
 
 ---
 **Previous:** [06-input-and-output.md](./06-input-and-output.md) | **Next:** [08-loops.md](./08-loops.md)
-
-=== END: 07-conditionals.md ===

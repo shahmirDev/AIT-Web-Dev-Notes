@@ -1,5 +1,3 @@
-=== START: 06-input-and-output.md ===
-
 # 6. User Input and Output
 
 **Learning objective:** Learn how JavaScript displays output and (in browsers) collects simple input.
@@ -41,5 +39,3 @@ console.log(`Hello, ${userName}`);
 
 ---
 **Previous:** [05-operators.md](./05-operators.md) | **Next:** [07-conditionals.md](./07-conditionals.md)
-
-=== END: 06-input-and-output.md ===

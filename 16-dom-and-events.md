@@ -1,5 +1,3 @@
-=== START: 16-dom-and-events.md ===
-
 # 16. Events and DOM Basics
 
 **Learning objective:** Get a lightweight introduction to the DOM and handling basic click events.
@@ -41,5 +39,3 @@ button.addEventListener("click", () => {
 
 ---
 **Previous:** [15-numbers.md](./15-numbers.md) | **Next:** [17-error-handling.md](./17-error-handling.md)
-
-=== END: 16-dom-and-events.md ===

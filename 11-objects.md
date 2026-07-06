@@ -1,5 +1,3 @@
-=== START: 11-objects.md ===
-
 # 11. Objects
 
 **Learning objective:** Learn how to create objects and access their properties and methods.
@@ -64,5 +62,3 @@ console.log(`${product.title}: $${product.price}`);
 
 ---
 **Previous:** [10-arrays.md](./10-arrays.md) | **Next:** [12-arrays-vs-objects.md](./12-arrays-vs-objects.md)
-
-=== END: 11-objects.md ===

@@ -1,5 +1,3 @@
-=== START: 03-variables-and-constants.md ===
-
 # 3. Variables and Constants
 
 **Learning objective:** Understand how to declare and use `let` and `const`, and why `var` is avoided.
@@ -53,5 +51,3 @@ const PI = 3.14159;
 
 ---
 **Previous:** [02-javascript-syntax.md](./02-javascript-syntax.md) | **Next:** [04-data-types.md](./04-data-types.md)
-
-=== END: 03-variables-and-constants.md ===

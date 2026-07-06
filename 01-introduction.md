@@ -1,5 +1,3 @@
-=== START: 01-introduction.md ===
-
 # 1. Introduction to JavaScript
 
 **Learning objective:** Understand what JavaScript is, where it runs, and how it fits with HTML/CSS.
@@ -35,5 +33,3 @@
 
 ---
 **Next:** [02-javascript-syntax.md](./02-javascript-syntax.md)
-
-=== END: 01-introduction.md ===

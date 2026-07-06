@@ -1,5 +1,3 @@
-=== START: 10-arrays.md ===
-
 # 10. Arrays
 
 **Learning objective:** Learn how to create, access, update, and manipulate arrays.
@@ -50,5 +48,3 @@ fruits.includes("kiwi"); // true
 
 ---
 **Previous:** [09-functions.md](./09-functions.md) | **Next:** [11-objects.md](./11-objects.md)
-
-=== END: 10-arrays.md ===

@@ -1,5 +1,3 @@
-=== START: 18-es6-basics.md ===
-
 # 18. Introduction to ES6 Features
 
 **Learning objective:** Get a concise overview of the key modern (ES6+) syntax features used throughout this handbook.
@@ -52,5 +50,3 @@ const updatedUser = { ...user, age: 26 }; // { name: "Alice", age: 26 }
 
 ---
 **Previous:** [17-error-handling.md](./17-error-handling.md) | **Next:** [19-mini-project-examples.md](./19-mini-project-examples.md)
-
-=== END: 18-es6-basics.md ===

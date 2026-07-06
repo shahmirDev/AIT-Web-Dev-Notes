@@ -1,5 +1,3 @@
-=== START: 15-numbers.md ===
-
 # 15. Number Basics
 
 **Learning objective:** Learn how to parse, round, and work with numbers using the Math object.
@@ -43,5 +41,3 @@ Math.ceil(4.1);  // 5
 
 ---
 **Previous:** [14-strings.md](./14-strings.md) | **Next:** [16-dom-and-events.md](./16-dom-and-events.md)
-
-=== END: 15-numbers.md ===

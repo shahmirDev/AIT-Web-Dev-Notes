@@ -1,5 +1,3 @@
-=== START: 12-arrays-vs-objects.md ===
-
 # 12. Array vs Object
 
 **Learning objective:** Understand when to use an array versus an object.
@@ -44,5 +42,3 @@ const students = [
 
 ---
 **Previous:** [11-objects.md](./11-objects.md) | **Next:** [13-scope.md](./13-scope.md)
-
-=== END: 12-arrays-vs-objects.md ===

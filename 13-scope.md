@@ -1,5 +1,3 @@
-=== START: 13-scope.md ===
-
 # 13. Scope
 
 **Learning objective:** Understand global, function, and block scope in JavaScript.
@@ -53,5 +51,3 @@ if (true) {
 
 ---
 **Previous:** [12-arrays-vs-objects.md](./12-arrays-vs-objects.md) | **Next:** [14-strings.md](./14-strings.md)
-
-=== END: 13-scope.md ===

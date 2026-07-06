@@ -1,5 +1,3 @@
-=== START: 20-best-practices.md ===
-
 # 20. JavaScript Best Practices
 
 **Learning objective:** Learn naming conventions, clean code habits, and common beginner mistakes to avoid.
@@ -74,5 +72,3 @@ function getDiscount(user) {
 
 ---
 **Previous:** [19-mini-project-examples.md](./19-mini-project-examples.md) | **Next:** [21-cheat-sheet.md](./21-cheat-sheet.md)
-
-=== END: 20-best-practices.md ===

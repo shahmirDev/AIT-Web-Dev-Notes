@@ -1,5 +1,3 @@
-=== START: 04-data-types.md ===
-
 # 4. Data Types
 
 **Learning objective:** Learn JavaScript's core data types and when to use each.
@@ -80,5 +78,3 @@ const colors = ["red", "green", "blue"]; // Use case: lists of items
 
 ---
 **Previous:** [03-variables-and-constants.md](./03-variables-and-constants.md) | **Next:** [05-operators.md](./05-operators.md)
-
-=== END: 04-data-types.md ===

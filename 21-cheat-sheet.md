@@ -1,5 +1,3 @@
-=== START: 21-cheat-sheet.md ===
-
 # 21. Final Cheat Sheet
 
 **Learning objective:** Quickly review core JavaScript fundamentals before interviews or coding practice.
@@ -89,5 +87,3 @@ This cheat sheet condenses files 03–11 into a single quick-reference page. For
 
 ---
 **Previous:** [20-best-practices.md](./20-best-practices.md) | **Start over:** [01-introduction.md](./01-introduction.md)
-
-=== END: 21-cheat-sheet.md ===

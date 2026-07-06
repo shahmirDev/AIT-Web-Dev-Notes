@@ -1,5 +1,3 @@
-=== START: 09-functions.md ===
-
 # 9. Functions
 
 **Learning objective:** Learn how to create reusable blocks of logic using functions and arrow functions.
@@ -59,5 +57,3 @@ FUNCTION calculateTotal(price, tax)
 
 ---
 **Previous:** [08-loops.md](./08-loops.md) | **Next:** [10-arrays.md](./10-arrays.md)
-
-=== END: 09-functions.md ===

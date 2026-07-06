@@ -1,5 +1,3 @@
-=== START: 05-operators.md ===
-
 # 5. Operators
 
 **Learning objective:** Learn the main operator categories used for calculations, comparisons, and logic.
@@ -60,5 +58,3 @@ count--; // 0
 
 ---
 **Previous:** [04-data-types.md](./04-data-types.md) | **Next:** [06-input-and-output.md](./06-input-and-output.md)
-
-=== END: 05-operators.md ===

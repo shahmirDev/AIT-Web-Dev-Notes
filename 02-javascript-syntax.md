@@ -1,5 +1,3 @@
-=== START: 02-javascript-syntax.md ===
-
 # 2. JavaScript Syntax
 
 **Learning objective:** Learn the basic building blocks of JS code: statements, semicolons, comments, and formatting rules.
@@ -56,5 +54,3 @@ let b = 2;
 
 ---
 **Previous:** [01-introduction.md](./01-introduction.md) | **Next:** [03-variables-and-constants.md](./03-variables-and-constants.md)
-
-=== END: 02-javascript-syntax.md ===

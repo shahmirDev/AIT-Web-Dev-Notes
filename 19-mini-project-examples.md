@@ -1,5 +1,3 @@
-=== START: 19-mini-project-examples.md ===
-
 # 19. Mini Real-World Examples
 
 **Learning objective:** Apply concepts from earlier files in five small, practical examples.
@@ -77,5 +75,3 @@ console.log(`${profile.name} is ${profile.age} years old.`);
 
 ---
 **Previous:** [18-es6-basics.md](./18-es6-basics.md) | **Next:** [20-best-practices.md](./20-best-practices.md)
-
-=== END: 19-mini-project-examples.md ===

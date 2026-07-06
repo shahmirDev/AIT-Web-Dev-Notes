@@ -1,5 +1,3 @@
-=== START: 08-loops.md ===
-
 # 8. Loops
 
 **Learning objective:** Learn how to repeat code using `for`, `while`, and `do...while`, plus `break`/`continue`.
@@ -91,5 +89,3 @@ for (let i = 0; i < 5; i++) {
 
 ---
 **Previous:** [07-conditionals.md](./07-conditionals.md) | **Next:** [09-functions.md](./09-functions.md)
-
-=== END: 08-loops.md ===

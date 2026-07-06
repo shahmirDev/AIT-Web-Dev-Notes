@@ -1,5 +1,3 @@
-=== START: 14-strings.md ===
-
 # 14. String Basics
 
 **Learning objective:** Learn how to combine and manipulate text using strings.
@@ -41,5 +39,3 @@ const full = `${first} ${last}`; // "John Doe"
 
 ---
 **Previous:** [13-scope.md](./13-scope.md) | **Next:** [15-numbers.md](./15-numbers.md)
-
-=== END: 14-strings.md ===
