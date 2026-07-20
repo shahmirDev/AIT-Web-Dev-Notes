@@ -86,4 +86,4 @@ obj["name"];   // bracket notation
 This cheat sheet condenses files 03–11 into a single quick-reference page. For deeper explanations, revisit the linked files throughout this handbook.
 
 ---
-**Previous:** [20-best-practices.md](./20-best-practices.md) | **Start over:** [01-introduction.md](./01-introduction.md)
+**Previous:** [20-best-practices.md](./20-best-practices.md) | **Next:** [22-async-javascript.md](./22-async-javascript.md) (start of the MERN stack path)

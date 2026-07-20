@@ -38,13 +38,35 @@ fruits.push("kiwi");     // ["apple","mango","cherry","kiwi"]
 fruits.includes("kiwi"); // true
 ```
 
+## Iteration Methods
+
+- These don't change the original array (except `forEach`, which returns nothing). Used constantly in React later.
+
+| Method | Purpose | Example |
+|---|---|---|
+| forEach | Run code for each item | `arr.forEach(x => console.log(x))` |
+| map | Build a new array from each item | `arr.map(x => x * 2)` |
+| filter | Keep items that pass a test | `arr.filter(x => x > 2)` |
+| reduce | Combine all items into one value | `arr.reduce((sum, x) => sum + x, 0)` |
+
+```js
+const nums = [1, 2, 3, 4];
+
+nums.map(n => n * 2);              // [2, 4, 6, 8]
+nums.filter(n => n % 2 === 0);     // [2, 4]
+nums.reduce((sum, n) => sum + n, 0); // 10
+```
+
 ### Common Mistakes
 - Off-by-one errors (arrays are zero-indexed).
 - Confusing `push`/`pop` (end) with `shift`/`unshift` (start).
+- Forgetting `map`/`filter` return a **new** array — the original is untouched.
+- Forgetting the starting value in `reduce` (the `0` above) — it defaults to the first item otherwise.
 
 ### Quick Summary
 - Arrays store ordered lists, indexed from 0.
 - `push`/`pop` work at the end, `shift`/`unshift` at the start.
+- `map` transforms, `filter` selects, `reduce` combines — the three you'll use most in real projects.
 
 ---
 **Previous:** [09-functions.md](./09-functions.md) | **Next:** [11-objects.md](./11-objects.md)

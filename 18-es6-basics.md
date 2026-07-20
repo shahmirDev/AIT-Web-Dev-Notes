@@ -40,13 +40,38 @@ const user = { name: "Alice" };
 const updatedUser = { ...user, age: 26 }; // { name: "Alice", age: 26 }
 ```
 
+## Classes
+
+- A template for creating objects with the same shape. Mostly sugar over the older prototype system.
+
+```js
+class User {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
+
+  greet() {
+    return `Hi, I'm ${this.name}`;
+  }
+}
+
+const u = new User("Alice", 25);
+u.greet(); // "Hi, I'm Alice"
+```
+
+- `constructor` runs once, when you create the object with `new`.
+- Naming: PascalCase (see [20-best-practices.md](./20-best-practices.md)).
+
 ### Common Mistakes
 - Destructuring a key that doesn't exist (results in `undefined`, not an error).
 - Forgetting spread creates a **shallow copy**, not a deep copy.
+- Forgetting `new` when creating a class instance.
 
 ### Quick Summary
 - Destructuring: pull values out of arrays/objects easily.
 - Spread (`...`): expand/copy arrays and objects.
+- Classes: templates for objects, created with `new`.
 
 ---
 **Previous:** [17-error-handling.md](./17-error-handling.md) | **Next:** [19-mini-project-examples.md](./19-mini-project-examples.md)
