@@ -24,6 +24,11 @@ function Counter() {
 
 - Never mutate state directly (`count++`) — always use the setter.
 
+### Why This Matters: Unidirectional Data Flow
+
+- React apps follow a one-way street: data (state) flows *down* from parent to child via props, and events flow *up* (a child tells its parent something happened, e.g. a click), which then updates state and flows back down. This "state management" discipline is why React apps stay predictable even as they grow — data doesn't randomly change from unexpected places.
+- Like water flowing downhill: it only goes one direction, which makes it easy to trace where a value came from.
+
 ## useEffect
 
 - Runs code after render — for things outside React's normal flow (API calls, timers, subscriptions).

@@ -9,6 +9,11 @@
 - JS runs one thing at a time (single-threaded).
 - Slow tasks (reading a file, calling an API) don't block the rest of the code — they run in the background and report back later.
 
+### Why This Matters: Execution Models
+
+- "Synchronous" and "asynchronous" are two different **execution models** — two different philosophies for handling work. Synchronous is like a single cashier serving one customer fully before starting the next; asynchronous is like a waiter who takes an order, sends it to the kitchen, and moves on to the next table instead of standing there waiting.
+- This is why a server (coming up in Node/Express) can serve thousands of users at once without freezing — it doesn't wait around for slow things like database queries.
+
 ## Callbacks
 
 - A function passed to run later, when a task finishes.

@@ -26,6 +26,11 @@ button.addEventListener("click", () => {
 });
 ```
 
+## Why This Matters: Event-Driven Programming
+
+- So far your code has run top-to-bottom in order. `addEventListener` introduces a different style: **event-driven programming** — your code sits and waits, and only runs *when something happens* (a click, a keypress, data arriving).
+- Like a doorbell: nobody stands at the door all day — it just rings (fires an event) when someone presses it, and you react then. Most real apps (including React, later) are built this way.
+
 ### Common Mistakes
 - Selecting an element before it exists in the DOM (script runs too early).
 - Forgetting `addEventListener` needs a function, not a function call (`onClick()` vs `onClick`).

@@ -4,6 +4,11 @@
 
 **Prerequisite:** [09-functions.md](./09-functions.md)
 
+## Why This Matters: Data Structures
+
+- An array is a **data structure** — a way of organizing data so it's easy to work with. Think of it like numbered train carriages: each item has a fixed position (index), and the order is preserved.
+- Choosing the right structure (array vs. object, covered next) is a small but real design decision — it shapes how easily you can find, add, or loop through your data later.
+
 ## Creating Arrays
 
 ```js

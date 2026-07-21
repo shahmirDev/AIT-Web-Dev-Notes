@@ -9,6 +9,11 @@
 - A runtime that lets JS run outside the browser (on a server, your machine, anywhere).
 - Built on Chrome's V8 engine. No `window` or `document` — instead it has file system, network, and OS access.
 
+### Why This Matters: Language vs. Runtime
+
+- JavaScript (the *language* — syntax, logic, rules) and Node.js (a *runtime* — the environment that actually executes it and gives it powers like reading files) are different things. The browser is another runtime for the same language, just with different powers (DOM, no file access).
+- Same recipe (JS), different kitchens (browser vs. Node) — each kitchen has different appliances available.
+
 ## Running a File
 
 ```bash

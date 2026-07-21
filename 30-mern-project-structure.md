@@ -13,6 +13,11 @@
 | R | React | Frontend UI |
 | N | Node.js | Runs the backend JS |
 
+### Why This Matters: Three-Tier Architecture
+
+- Close the loop on the restaurant analogy from [01-introduction.md](./01-introduction.md): **React** is the dining room (what the customer sees and interacts with), **Express** is the kitchen and waiter (takes orders, prepares responses), and **MongoDB** is the pantry (where everything is actually stored). **Node** is what powers the kitchen equipment.
+- This "presentation layer / logic layer / data layer" split is called **three-tier architecture** — a standard shape for most real-world web apps, not just MERN. Once you see it here, you'll recognize it in almost every other stack you meet later.
+
 ## Typical Folder Structure
 
 ```text

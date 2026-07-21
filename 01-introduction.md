@@ -8,6 +8,12 @@
 - Adds **interactivity** and **logic** to web pages.
 - Can run on the browser (client-side) and on servers (via Node.js).
 
+## How the Web Actually Works (Client-Server Model)
+
+- Think of a restaurant: you (the **client/browser**) sit at a table and ask a waiter for food. The waiter takes your order to the **kitchen (server)**, which prepares it and sends it back.
+- On the web: your browser sends a **request** (e.g. "give me this webpage"), a server processes it and sends back a **response** (HTML, data, etc.).
+- This request-response pattern is the foundation almost everything else in this handbook builds on — we'll revisit this exact analogy when we get to servers and full-stack apps later.
+
 ## Where JavaScript Runs
 
 | Environment | Example |

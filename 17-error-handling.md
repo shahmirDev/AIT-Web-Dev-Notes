@@ -29,6 +29,11 @@ try {
 - Wrapping too much code in one `try` block, making it hard to know what failed.
 - Ignoring the caught error instead of logging or handling it.
 
+### Why This Matters: Designing for Failure
+
+- Real software design assumes things *will* go wrong — a network drops, a file is missing, a user types nonsense. `try/catch` is your app's seatbelt: it doesn't prevent the crash, but it stops one bad moment from taking down the whole app.
+- This mindset ("assume failure, handle it gracefully") shows up again later in Express error middleware and API error responses.
+
 ### Quick Summary
 - `try` → code that might fail.
 - `catch` → runs if an error occurs, receives the error object.

@@ -41,6 +41,7 @@ if (age >= LEGAL_AGE) { ... }
 - **KISS** (Keep It Simple): prefer the simplest solution that works.
 - **Single Responsibility Principle:** each function/class should do one thing.
 - **Separation of concerns:** keep structure (HTML), style (CSS), and logic (JS) separate.
+- **Encapsulation:** keep variables and logic scoped to where they're needed (see [13-scope.md](./13-scope.md)) instead of exposing everything globally.
 
 ## Clean Code Guidelines
 

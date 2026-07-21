@@ -14,6 +14,10 @@
 | Row | Document |
 | Column | Field |
 
+### Why This Matters: Schema Design
+
+- SQL databases force every row into the same rigid columns (like a strict spreadsheet). MongoDB lets documents in the same collection have slightly different shapes. This flexibility is a genuine **design tradeoff**: faster to start and change, but Mongoose schemas (below) exist specifically to add back some of that structure and safety when you need it.
+
 ```js
 // A MongoDB document — just JSON
 { _id: "...", name: "Alice", age: 25 }

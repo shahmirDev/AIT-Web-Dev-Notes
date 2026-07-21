@@ -9,6 +9,11 @@
 - A library for building UIs out of reusable **components**.
 - You describe what the UI should look like for a given state; React updates the page for you.
 
+### Why This Matters: Component-Based Architecture
+
+- Instead of building one giant page, React encourages breaking the UI into small, reusable pieces — like Lego blocks. A `Card`, a `Button`, a `UserList` — each is self-contained and can be reused or swapped without touching the rest of the app.
+- This is the frontend equivalent of the layered thinking from Express: instead of routes/middleware/models, it's components that compose together to build the full page.
+
 ## JSX
 
 - Looks like HTML, but it's JavaScript. Must return a **single** root element.

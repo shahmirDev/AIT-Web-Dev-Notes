@@ -40,6 +40,11 @@ const sum = add(2, 3); // 5
 const greet = name => `Hello ${name}`;
 ```
 
+## Why This Matters: Abstraction
+
+- A function is a small example of **abstraction** — a core software design idea: hide the messy details behind a simple name.
+- Like a TV remote: you press "power," you don't need to know the circuitry inside. `add(2, 3)` is the same — you use it without caring how the addition happens internally.
+
 **Pseudocode for reusable logic:**
 ```
 FUNCTION calculateTotal(price, tax)

@@ -44,6 +44,11 @@ if (true) {
 - Expecting `let`/`const` declared in a block to be usable outside it.
 - Overusing global variables, causing naming conflicts (see [03-variables-and-constants.md](./03-variables-and-constants.md)).
 
+### Why This Matters: Encapsulation
+
+- Keeping a variable contained to where it's needed (instead of making everything global) is the seed of a bigger software design idea called **encapsulation** — bundling data so only the right parts of your code can touch it.
+- Like a locker: you don't want every stranger reaching into it, only the code that actually needs that variable.
+
 ### Quick Summary
 - Global scope: accessible everywhere.
 - Function scope: accessible only inside that function.

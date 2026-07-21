@@ -9,6 +9,11 @@
 - A minimal web framework on top of Node's `http` module.
 - Handles routing, request/response parsing, and middleware so you don't build it by hand.
 
+### Why This Matters: Layered Architecture
+
+- Back to the restaurant analogy from [01-introduction.md](./01-introduction.md): if Node is the kitchen, Express organizes it into stations — **routes** decide which "station" handles an incoming order, **middleware** are prep steps every order passes through first (like checking an ID before serving alcohol), and later, **models** (MongoDB/Mongoose) are the pantry where ingredients (data) are actually stored.
+- Splitting an app into these layers — instead of one giant file doing everything — is a real architectural pattern, and it's why large apps stay manageable as they grow.
+
 ## Setup
 
 ```bash
@@ -39,6 +44,8 @@ app.delete("/users/:id", (req, res) => res.status(204).send());
 ```
 
 ## REST Conventions
+
+- REST is an **architectural style** (a set of agreed conventions, not a library) for designing APIs so any frontend can predictably talk to any backend — same idea as everyone agreeing to drive on the same side of the road.
 
 | Method | Purpose | Typical status |
 |---|---|---|
